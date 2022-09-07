@@ -6,11 +6,11 @@
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
 
-    <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
     <%= javascript_importmap_tags %>
   </head>
 
-  <body>
+  <body class="is-flex is-justify-content-center is-align-content-center is-flex-direction-column" style="height: 100vh;" ">
     <%= yield %>
   </body>
 </html>
